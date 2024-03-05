@@ -64,7 +64,8 @@ class BlogController extends Controller
 
     public function index()
     {
-        return view('pages.blog', ['blogs' => $this->blogs]);
+        $name = 'moUAD';
+        return view('pages.blog', ['blogs' => $this->blogs, 'name' => $name]);
     }
     public function show($id)
     {

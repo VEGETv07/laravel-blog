@@ -1,9 +1,6 @@
-@extends('layout.defaults')
-@section('title', 'About')
-    
 
-@section('content')
-    
+<x-master title="About">
+
 <section class="flex  bg-slate-200 items-center">
     <div class="px-10 flex-1">
         <h1 class="font-bold text-4xl  pb-3 pl-5 text-amber-900">About us</h1>
@@ -13,5 +10,4 @@
         <img src="image.jpg" alt="" class="w-full rounded-xl">
     </div>
 </section>
-
-@endsection
+</x-master>

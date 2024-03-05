@@ -1,7 +1,6 @@
-@extends('layout.defaults')
-@section('title', 'Contact')
-@section('content')
-    
+
+<x-master title="Contact">
+
 <section class="flex justify-center items-center h-screen bg-slate-200">
 <div class="w-1/2  border-2 rounded-md border-gray-700 p-8 shadow-md bg-slate-100">
 
@@ -31,5 +30,4 @@
     
 </div>
 </section>
-
-@endsection
+</x-master>
