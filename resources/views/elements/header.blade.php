@@ -4,6 +4,7 @@
         <ul class="flex justify-between">
             <li class="px-5"><a href={{route('home')}}>HOME</a></li>
             <li class="px-5"><a href={{route('blog')}}>BLOG</a></li>
+            <li class="px-5"><a href={{route('add')}}>ADD BLOG</a></li>
             <li class="px-5"><a href={{route('contact')}}>CONTACT</a></li>
             <li class="px-5"><a href={{route('about')}}>ABOUT</a></li>
         </ul>

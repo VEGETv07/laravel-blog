@@ -9,9 +9,9 @@
        <span>Return</span></a>
 <div  class="flex gap-4 flex-wrap justify-center  bg-slate-100 ">
     <div class="p-8 border border-slate-900 rounded-lg">
-        <h2 class="text-3xl font-semibold text-slate-600 border-b border-slate-800 pb-2">{{$blog['title']}}</h2>
+        <h2 class="text-3xl font-semibold text-slate-600 border-b border-slate-800 pb-2">{{$blog->title}}</h2>
         
-        <p class="text-lg pt-6">{{$blog['content']}}</p>
+        <p class="text-lg pt-6">{{$blog->content}}</p>
     </div>
 </div>
 </section>
